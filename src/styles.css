@@ -70,6 +70,12 @@ nav.navbar {
 	margin-bottom: -5px;
 	background-color:rgba(0,3,41,0.8);
 }
+.nav-icon {
+	font-size: 1.2em;
+}
+i.fa, i.fas {
+	margin-right:0.3em;
+}
 .btn.disabled, .btn:disabled { opacity: .2; }
 
 body div.jumbotron {background-color: transparent !important;}
