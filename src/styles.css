@@ -58,7 +58,7 @@ a:hover.btn {
 	margin-bottom:1em;
 }
 
-.blockchainLogos1 i {margin: 0 0.1em;}
+.blockchainLogos1 i {margin: 0 0.1em; }
 
 footer { padding:1em 0; }
 footer .footerlogo {max-height:15px;}
@@ -284,4 +284,19 @@ div.svgClippedBackHero {
     0% {opacity: 0;}
     50% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+.partnerLogo {
+	display:inline-block;
+	max-width: 30%;
+	margin: 0 1em;
+}
+
+.footericon a {
+	font-size: 3em;
+	margin:0 1em;
+}
+
+footer {
+	/*background-color: #5bd5e6;*/
 }
