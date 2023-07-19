@@ -16,6 +16,10 @@ body {
 	font-family: 'Exo 2', sans-serif;
 	background-color: #000329;
 	color:#d8f8ff;
+	background-image: url('/img/bk2.jpg'); 
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: center top;
 }
 
 .biggy{
@@ -68,7 +72,7 @@ nav.navbar {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: -5px;
-	background-color:rgba(0,3,41,0.8);
+	background-color:rgba(0,3,41,0.5);
 }
 .nav-icon {
 	font-size: 1.2em;
@@ -83,13 +87,13 @@ body div.jumbotron {background-color: transparent !important;}
 .img-mirror {  -webkit-transform: scaleX(-1); transform: scaleX(-1);}
 
 .synthBk {
-	background-image: url('/img/bk1.jpg');
+	/*background-image: url('/img/bk2.jpg'); */
 	background-repeat: no-repeat;
-	background-size:contain;
-	background-position: center bottom;
+	background-size:cover;
+	background-position: center top;
 }
 .bkwave{
-	/* background-image: url('/img/bkwave2.jpg'); */
+	 /*background-image: url('/img/bkwave2.jpg'); */
 	background-repeat: no-repeat;
 	background-size:contain;
 	background-position: center top;
